@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Cuprum&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e74c3c;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Cuprum", sans-serif;
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: 20px;
+}
+
+.timer-container h1 {
+  text-align: center;
+}
+
+button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 40px;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+
+      
+
+.actions-wrapper span {
+  font-size: 30px;
+  widht: 250px;
+  margin: 0 10px;
+}
+
+.clock-container {
+  border: 5px solid #fff;
+  border-radius: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.clock-container h1 {
+  margin: 0;
+}
+
+.clock-container span {
+  font-size: 50px;
+
+}
